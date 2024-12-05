@@ -1,0 +1,18 @@
+.cookie-container {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.cookie {
+  font-size: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.cookie:hover {
+  transform: scale(1.1);
+}
+
+.cookie:active {
+  transform: scale(0.9);
+}
